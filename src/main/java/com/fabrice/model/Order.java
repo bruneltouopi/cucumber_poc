@@ -9,7 +9,7 @@ import java.util.List;
 public class Order {
     private String from;
     private String to;
-    private List<String> contents = new ArrayList<String>();
+    private List<String> contents = new ArrayList<>();
     private String message;
 
     public void declareOwner(String romeo) {
